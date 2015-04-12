@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project-modules id="moduleCoreId" project-version="1.5.0">
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="SpringProject">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <dependent-module archiveName="org-apache-commons-logging.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/org-apache-commons-logging/org-apache-commons-logging">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <property name="context-root" value="SpringProject"/>
         <property name="java-output-path" value="/SpringProject/build/classes"/>
     </wb-module>
